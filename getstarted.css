@@ -1,0 +1,120 @@
+
+body{
+    background-color: #210c2b;
+    margin-top: 120px;
+    margin-right: 600px;
+    margin-left: 600px;
+    /* background-image: url(https://www.jadeglobal.com/sites/default/files/2021-07/Object-REpository-min.jpg); opacity:1000;
+    background-repeat: no-repeat; */
+    /* top: 500px; */
+
+}
+.background{
+    background-image: url(https://www.jadeglobal.com/sites/default/files/2021-07/Object-REpository-min.jpg); opacity:1000;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: 750px 600px;
+    border-radius: 10px;
+    border: none;
+    opacity: 1;
+}
+.heading h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: #b4299e;
+}
+.box{
+    border: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 124, 214, 0.1);
+    border-radius: 20px;
+}
+.box .signup h2{
+text-align: center;
+color: #b4299e;
+
+}
+.box .form{
+    box-sizing: content-box;
+    padding: 10px 10px 10px 10px;
+}
+#uname
+{
+    background-color: rgb(228, 144, 228);
+    padding: 15px 10px;
+    border-radius:6px;
+    border: none;
+    font-size: 20px;
+}
+#eid
+{
+    background-color: rgb(228, 144, 228);
+    padding: 15px 10px;
+    border-radius:6px;
+    border: none;
+    font-size: 20px;
+}
+#pass
+{
+    background-color: rgb(228, 144, 228);
+    padding: 15px 10px;
+    border-radius:6px;
+    border: none;
+    font-size: 20px;
+}
+.box .create button
+{
+    background-color: #4d0a6d;
+    color: rgb(255, 255, 255) ;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    margin-right: 60px;
+    cursor: pointer;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    
+    
+}
+.box .create
+{
+    /* background-color: rgb(132, 240, 132); */
+    color: rgb(132, 240, 132) ;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin: 10px 10px;
+    padding: 1px 20px;
+    cursor: pointer;
+    
+}
+.box ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-left: 30px;
+    
+    
+}
+.social .social-login-label{
+    text-align: center;
+    color: #b4299e;
+    margin-top: 80px;
+}
+
+.box li a{
+   font-size: 50px;
+   padding: 10px 10px;
+   margin-left: 45px;
+}
+::placeholder { 
+    color: rgb(160, 138, 138);
+    opacity: 1; 
+  }
